@@ -26,16 +26,15 @@ Make sure that the `student_data_task_solution.py` script is in the same directo
 # Running the Script in PyCharm
 
 Open PyCharm create a new file (student_data_task_solution.py)  and load the project directory (student_data.csv) by either opening the folder directly or importing the project.
-**Import the Dataset**
-import pandas as pd
 
-**Load the dataset into a pandas DataFrame**
+1. **Import the Dataset**
+    -import pandas as pd
 
-df = pd.read_csv('student_data.csv')
+2. **Load the dataset into a pandas DataFrame**
+    -df = pd.read_csv('student_data.csv')
 
-**Display the rows of the dataset**
-
-print(df)
+3. **Display the rows of the dataset**
+    -print(df)
 
 
 
