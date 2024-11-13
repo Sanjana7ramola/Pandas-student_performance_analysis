@@ -40,9 +40,9 @@ Make sure that the `student_data_task_solution.py` script is in the same directo
 4. **Display the rows of the dataset**
  You can print the dataset to inspect its content:
     - print(df)
- This will output the rows of the dataset, showing all the student attributes.
+   This will output the rows of the dataset, showing all the student attributes.
 
- The student_data_task_solution.py file contains the Pandas solutions to analyze the dataset. These solutions solve various questions related to student performance
+   The student_data_task_solution.py file contains the Pandas solutions to analyze the dataset. These solutions solve various questions related to student performance
 
 5. **Run the Script**
  There are two ways to run the script:
@@ -52,6 +52,7 @@ Make sure that the `student_data_task_solution.py` script is in the same directo
 - Using PyCharm’s Run Button: Simply click the Run button at the top of the IDE, or use the shortcut Shift + F10 to execute the script directly.
 
 6. **View the Results**
+   
   The script will display output in the terminal.
 
 
