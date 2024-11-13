@@ -25,20 +25,35 @@ Make sure that the `student_data_task_solution.py` script is in the same directo
 
 # Running the Script in PyCharm
 
-Open PyCharm create a new file (student_data_task_solution.py)  and load the project directory (student_data.csv) by either opening the folder directly or importing the project.
-
-1. **Import the Dataset**
-    -import pandas as pd
+1. ** Open the Project in PyCharm**
+  - Open PyCharm and create a new Python project
+  - Import the project directory containing student_data_task_solution.py and the data folder.
+  - Ensure that the student_data.csv file is in the data folder and is accessible to the script.
+2. **Import the Dataset**
+In your student_data_task_solution.py, the first step is to import the required library:
+   -  import pandas as pd
 
 2. **Load the dataset into a pandas DataFrame**
-    -df = pd.read_csv('student_data.csv')
+ Now, load the dataset into a Pandas DataFrame:
+    - df = pd.read_csv('student_data.csv')
 
-3. **Display the rows of the dataset**
-    -print(df)
+4. **Display the rows of the dataset**
+ You can print the dataset to inspect its content:
+    - print(df)
+This will output the rows of the dataset, showing all the student attributes.
 
+The student_data_task_solution.py file contains the Pandas solutions to analyze the dataset. These solutions solve various questions related to student performance
 
+5. **Run the Script**
+ There are two ways to run the script:
 
+- From the Terminal: Open the terminal within PyCharm or any terminal, navigate to the folder containing student_data_task_solution.py, and run:
+   - python student_data_task_solution.py
+- Using PyCharm’s Run Button: Simply click the Run button at the top of the IDE, or use the shortcut Shift + F10 to execute the script directly.
 
+6. **6. View the Results**
+
+The script will display output in the terminal.
 
 
 
