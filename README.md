@@ -20,6 +20,7 @@ Before you begin, make sure you have the following installed:
 The dataset is available in the `data` folder and is provided as a CSV file.
 
 - File : `data/student_data.csv`
+  
 Make sure that the `student_data_task_solution.py` script is in the same directory as the `student_data` folder.
 
 # Running the Script in PyCharm
@@ -29,9 +30,11 @@ Open PyCharm create a new file (student_data_task_solution.py)  and load the pro
 import pandas as pd
 
 **Load the dataset into a pandas DataFrame**
+
 df = pd.read_csv('student_data.csv')
 
 **Display the rows of the dataset**
+
 print(df)
 
 
